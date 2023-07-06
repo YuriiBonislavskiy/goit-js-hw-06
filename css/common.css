@@ -27,6 +27,6 @@ button {
   display: grid;
 }
 
-.gallery li {
+.gallery > li {
   list-style-type: none;
 }
