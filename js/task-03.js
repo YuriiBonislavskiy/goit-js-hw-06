@@ -22,5 +22,5 @@ const itemsArray = images.map( ({ url, alt }) => {
 
 const imagesString = itemsArray.join("");
 
-elementsList.insertAdjacentHTML("beforebegin", imagesString);
+elementsList.insertAdjacentHTML("afterbegin", imagesString);
 
