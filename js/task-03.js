@@ -16,7 +16,9 @@ const images = [
 const elementsList = document.querySelector(".gallery");
 
 const itemsArray = images.map( ({ url, alt }) => {
-  const imageString = `<img src='${url}' alt='${alt}' />`;
+  const
+  
+  imageString = `<img src='${url}' alt='${alt}' />`;
   return `<li>${imageString}</li>`;
 });
 
